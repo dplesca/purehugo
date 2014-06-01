@@ -1,0 +1,10 @@
+name = "purehugo"
+description = "A theme based on the pure css blog layout"
+license = "MIT"
+source_repo = ""
+tags = ["blog", "purecss"]
+
+[author]
+    name = "dplesca"
+    twitter = "http://twitter.com/dragos_plesca"
+    url = "http://github.com/dplesca"
