@@ -20,7 +20,7 @@
                             {{ end }}
                             {{ if isset .Params "categories" }}
                                 under 
-                                {{ range .Params.categories }}<a class="post-category post-category-{{ . }}" href="/categories/{{ . }}">{{ . }}</a>{{ end }}
+                                {{ range .Params.categories }}<a class="post-category post-category-{{ . }}" href="/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
                             {{ end }}
                         </p>
                     </header>
