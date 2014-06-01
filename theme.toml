@@ -1,7 +1,7 @@
 name = "purehugo"
 description = "A theme based on the pure css blog layout"
 license = "MIT"
-source_repo = ""
+source_repo = "https://github.com/dplesca/purehugo"
 tags = ["blog", "purecss"]
 
 [author]
