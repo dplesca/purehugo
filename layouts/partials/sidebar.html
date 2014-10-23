@@ -2,18 +2,21 @@
     <div class="header">
         <hgroup>
             <h1 class="brand-title"><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
-            <h2 class="brand-tagline">{{ with .Site.Params.Description }} {{.}} {{ else }}A theme based on the pure css blog layout.{{end}}</h2>
+            <h2 class="brand-tagline">{{ with .Site.Params.Description }} {{.}} {{end}}</h2>
         </hgroup>
 
         <nav class="nav">
             <ul class="nav-list">
+                {{ with .Site.Params.twitter }}
                 <li class="nav-item">
-                    <a class="pure-button" href="http://twitter.com/{{ .Site.Params.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a class="pure-button" href="http://twitter.com/{{ . }}"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
+                {{ end }}
+                {{ with .Site.Params.github }}
                 <li class="nav-item">
-                    <a class="pure-button" href="http://github.com/{{ .Site.Params.github }} "><i class="fa fa-github-alt"></i> github</a>
+                    <a class="pure-button" href="http://github.com/{{ . }} "><i class="fa fa-github-alt"></i> github</a>
                 </li>
-               
+                {{ end }}
             </ul>
         </nav>
     </div>
