@@ -186,6 +186,9 @@ h3 {
 .footer .pure-menu a:focus {
     background: none;
 }
+.footer li{
+    list-style-type: none;
+}
 
 @media (min-width: 48em) {
     .content {
