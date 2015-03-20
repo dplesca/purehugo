@@ -27,6 +27,7 @@
                     <div class="post-description">
                         {{ .Content }}
                     </div>
+                    {{ template "_internal/disqus.html" . }}
                 </section>
             </div>
             {{ partial "footer.html" . }}
