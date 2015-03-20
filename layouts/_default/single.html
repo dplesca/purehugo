@@ -24,6 +24,17 @@
                         </p>
                     </header>
 
+                    <div class="post-share">
+                        <div class="post-share-links">
+                            <h4 style="">Share</h4>
+                            <a href="#" data-type="facebook" data-url="{{ .Permalink }}" data-title="{{ .Title }}" data-description="{{ .Description }}" data-media="" class="prettySocial fa fa-facebook"></a>
+                            <a href="#" data-type="googleplus" data-url="{{ .Permalink }}" data-description="{{ .Description }}" class="prettySocial fa fa-google-plus"></a>
+                            {{ if isset .Site.Params "twitter" }}
+                            <a href="#" data-type="twitter" data-url="{{ .Permalink }}" data-description="{{ .Description }}" data-via="{{ .Site.Params.twitter }}" class="prettySocial fa fa-twitter"></a>
+                            {{ end }}
+                            
+                        </div>
+                    </div>
                     <div class="post-description">
                         {{ .Content }}
                     </div>
@@ -36,5 +47,12 @@
 </div>
 
 {{ partial "analytics.html" . }}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="{{ .Site.BaseUrl }}/js/jquery.prettysocial.min.js"></script>
+<script>
+    $(function(){
+        $('.prettySocial').prettySocial();
+    });
+</script>
 </body>
 </html>

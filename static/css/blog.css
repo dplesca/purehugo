@@ -190,6 +190,34 @@ h3 {
     list-style-type: none;
 }
 
+.post-share-links{
+    margin:15px 15px 0 0;
+    float:left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.post-share-links a{
+    color:#aaa;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0 auto;
+    display: block;
+    transition: all .3s ease-in;
+}
+
+.post-share-links a:hover{
+    color: rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+.post-share-links h4{
+    font-family: "Oxygen", sans-serif;
+    margin:0 0 5px;
+    color:#aaa
+}
+
 @media (min-width: 48em) {
     .content {
         padding: 2em 3em 0;
