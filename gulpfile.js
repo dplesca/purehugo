@@ -8,7 +8,7 @@ gulp.task('compress', function() {
     .pipe(concat('all.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('static/js/'));
-  gulp.src(['assets/css/blog.css', 'assets/css/syntax-highlighter.css'])
+  gulp.src(['assets/css/blog.css', 'assets/css/syntax-highlighter.css', 'assets/css/custom.css'])
     .pipe(concat('all.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('static/css/'));
