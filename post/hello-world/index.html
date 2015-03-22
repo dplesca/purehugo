@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     
 
-    <link rel="stylesheet" href="http://dplesca.github.io/purehugo/css/all.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/purehugo/css/all.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -32,7 +32,7 @@
     <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
         <hgroup>
-            <h1 class="brand-title"><a href="http://dplesca.github.io/purehugo">purehugo</a></h1>
+            <h1 class="brand-title"><a href="http://localhost:1313/purehugo">purehugo</a></h1>
             <h2 class="brand-tagline"> Demo site for a hugo theme </h2>
         </hgroup>
 
@@ -61,13 +61,14 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://dplesca.github.io/purehugo/post/hello-world/" class="post-title">Hello World, This Is Purehugo!</a>
+                        <a href="http://localhost:1313/purehugo/post/hello-world/" class="post-title">Hello World, This Is Purehugo!</a>
 
                         <p class="post-meta">
                             
                             
                                 under 
-                                <a class="post-category post-category-hugo" href="/categories/hugo">hugo</a>
+                                
+                                <a class="post-category post-category-hugo" href="http://localhost:1313/purehugo/categories/hugo">hugo</a>
                             
                         </p>
                     </header>
@@ -75,18 +76,18 @@
                     <div class="post-share">
                         <div class="post-share-links">
                             <h4 style="">Share</h4>
-                            <a href="#" data-type="facebook" data-url="http://dplesca.github.io/purehugo/post/hello-world/" data-title="Hello World, This Is Purehugo!" data-description="Hugo theme based on purecss from Yahoo." data-media="" class="prettySocial fa fa-facebook"></a>
-                            <a href="#" data-type="googleplus" data-url="http://dplesca.github.io/purehugo/post/hello-world/" data-description="Hugo theme based on purecss from Yahoo." class="prettySocial fa fa-google-plus"></a>
+                            <a href="#" data-type="facebook" data-url="http://localhost:1313/purehugo/post/hello-world/" data-title="Hello World, This Is Purehugo!" data-description="Hugo theme based on purecss from Yahoo." data-media="" class="prettySocial fa fa-facebook"></a>
+                            <a href="#" data-type="googleplus" data-url="http://localhost:1313/purehugo/post/hello-world/" data-description="Hugo theme based on purecss from Yahoo." class="prettySocial fa fa-google-plus"></a>
                             
-                            <a href="#" data-type="twitter" data-url="http://dplesca.github.io/purehugo/post/hello-world/" data-description="Hugo theme based on purecss from Yahoo." data-via="dragos_plesca" class="prettySocial fa fa-twitter"></a>
+                            <a href="#" data-type="twitter" data-url="http://localhost:1313/purehugo/post/hello-world/" data-description="Hugo theme based on purecss from Yahoo." data-via="dragos_plesca" class="prettySocial fa fa-twitter"></a>
                             
                             
                         </div>
                     </div>
                     <div class="post-description">
-                        <p>There are a lot of static site generators. And I&rsquo;ve tried quite a few during my failed writing endeavours. But I can surely say that <a href="http://gohugo.io/">Hugo</a> seems to be the best one yet. It&rsquo;s super easy to use (after all it&rsquo;s just a binary file), cross-platform and incredibly fast. All those things can be attributed to the <a href="http://golang.org/">go programming language</a> and to the great developers that have written it and transformed in an easy to use and quite powerful static site generator.</p>
+                        <p>There are a lot of static site generators. And I&rsquo;ve tried quite a few during my failed writing endeavours. But I can surely say that <a href="http://gohugo.io/">Hugo</a> seems to be the best one yet. It&rsquo;s super easy to use (after all it&rsquo;s just a binary file), cross-platform and incredibly fast. All those things can be attributed to the <a href="http://golang.org/">go programming language</a> and to the great developers that have written it and transformed it in an easy to use and quite powerful static site generator.</p>
 
-<p>Sometime last May I discovered Hugo and started to look around for themes for it. There weren&rsquo;t many and I went and made one myself. I tend to do that when learning to use a static-site generator because it&rsquo;s a great way to see the capabilities of the platform, the drawbacks and generally how easy or complicated it is to use and develop for that platform. So I took an example layout from the <a href="http://purecss.io/">Pure css library from Yahoo</a> (a project that I really like because it&rsquo;s light and looks nice and also can be painlessly integrated) and made a theme in a few hours in a weekend. The experience was easy and painless, I only remember struggling with the date formatting.</p>
+<p>Sometime last May I discovered Hugo and started to look around for themes for it. There weren&rsquo;t many and I went and made one myself. I tend to do that when learning to use a static-site generator because it&rsquo;s a great way to see the capabilities of the platform, the drawbacks and generally how easy or complicated it is to use and develop for that platform. So I took an example layout from the <a href="http://purecss.io/">Pure css library from Yahoo</a> (a project that I really like because it&rsquo;s light and looks nice and also can be painlessly integrated) and made a theme in a few hours in a weekend. The experience was easy and painless, I only remember struggling a bit with the date formatting.</p>
 
 <p>I saw <a href="https://github.com/dplesca/purehugo/">purehugo</a> as an almost clear canvas, just pull the theme and customize it the way you need it. As Hugo moved along adding new features, some of them exciting (pagination and external data handling), I was thinking that I could make the theme a little bit more user friendly and easier to use. So, this last week I focused again on the theme and added some new features, working for a couple hours every evening: there&rsquo;s syntax highlighting baked in (using <a href="http://craig.is/making/rainbows">rainbow.js</a>), a Google analytics partial, Open Graph tags, Twitter card support, a share widget for posts (using <a href="http://sonnyt.com/prettySocial/">jquery.prettySocial</a>). I&rsquo;ve also tried to make an asset pipeline of some sort using the amazing <a href="http://gulpjs.com/">gulp.js</a>.</p>
 
@@ -98,9 +99,9 @@
                     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'purehugo';
-    var disqus_identifier = 'http:\/\/dplesca.github.io\/purehugo\/post\/hello-world\/';
+    var disqus_identifier = 'http:\/\/localhost:1313\/purehugo\/post\/hello-world\/';
     var disqus_title = 'Hello World, This Is Purehugo!';
-    var disqus_url = 'http:\/\/dplesca.github.io\/purehugo\/post\/hello-world\/';
+    var disqus_url = 'http:\/\/localhost:1313\/purehugo\/post\/hello-world\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -119,7 +120,7 @@
         </ul>
     </div>
 </div>
-<script src="http://dplesca.github.io/purehugo/js/all.min.js"></script>
+<script src="http://localhost:1313/purehugo/js/all.min.js"></script>
         </div>
     </div>
 </div>

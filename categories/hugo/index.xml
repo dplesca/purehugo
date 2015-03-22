@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on purehugo</title>
-    <link>http://dplesca.github.io/purehugo/categories/hugo/</link>
+    <link>http://localhost:1313/purehugo/categories/hugo/</link>
     <description>Recent content in Hugo on purehugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Mar 2015 21:49:32 +0200</lastBuildDate>
-    <atom:link href="http://dplesca.github.io/purehugo/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/purehugo/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello World, This Is Purehugo!</title>
-      <link>http://dplesca.github.io/purehugo/post/hello-world/</link>
+      <link>http://localhost:1313/purehugo/post/hello-world/</link>
       <pubDate>Sat, 21 Mar 2015 21:49:32 +0200</pubDate>
       
-      <guid>http://dplesca.github.io/purehugo/post/hello-world/</guid>
-      <description>&lt;p&gt;There are a lot of static site generators. And I&amp;rsquo;ve tried quite a few during my failed writing endeavours. But I can surely say that &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; seems to be the best one yet. It&amp;rsquo;s super easy to use (after all it&amp;rsquo;s just a binary file), cross-platform and incredibly fast. All those things can be attributed to the &lt;a href=&#34;http://golang.org/&#34;&gt;go programming language&lt;/a&gt; and to the great developers that have written it and transformed in an easy to use and quite powerful static site generator.&lt;/p&gt;
+      <guid>http://localhost:1313/purehugo/post/hello-world/</guid>
+      <description>&lt;p&gt;There are a lot of static site generators. And I&amp;rsquo;ve tried quite a few during my failed writing endeavours. But I can surely say that &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; seems to be the best one yet. It&amp;rsquo;s super easy to use (after all it&amp;rsquo;s just a binary file), cross-platform and incredibly fast. All those things can be attributed to the &lt;a href=&#34;http://golang.org/&#34;&gt;go programming language&lt;/a&gt; and to the great developers that have written it and transformed it in an easy to use and quite powerful static site generator.&lt;/p&gt;
 
-&lt;p&gt;Sometime last May I discovered Hugo and started to look around for themes for it. There weren&amp;rsquo;t many and I went and made one myself. I tend to do that when learning to use a static-site generator because it&amp;rsquo;s a great way to see the capabilities of the platform, the drawbacks and generally how easy or complicated it is to use and develop for that platform. So I took an example layout from the &lt;a href=&#34;http://purecss.io/&#34;&gt;Pure css library from Yahoo&lt;/a&gt; (a project that I really like because it&amp;rsquo;s light and looks nice and also can be painlessly integrated) and made a theme in a few hours in a weekend. The experience was easy and painless, I only remember struggling with the date formatting.&lt;/p&gt;
+&lt;p&gt;Sometime last May I discovered Hugo and started to look around for themes for it. There weren&amp;rsquo;t many and I went and made one myself. I tend to do that when learning to use a static-site generator because it&amp;rsquo;s a great way to see the capabilities of the platform, the drawbacks and generally how easy or complicated it is to use and develop for that platform. So I took an example layout from the &lt;a href=&#34;http://purecss.io/&#34;&gt;Pure css library from Yahoo&lt;/a&gt; (a project that I really like because it&amp;rsquo;s light and looks nice and also can be painlessly integrated) and made a theme in a few hours in a weekend. The experience was easy and painless, I only remember struggling a bit with the date formatting.&lt;/p&gt;
 
 &lt;p&gt;I saw &lt;a href=&#34;https://github.com/dplesca/purehugo/&#34;&gt;purehugo&lt;/a&gt; as an almost clear canvas, just pull the theme and customize it the way you need it. As Hugo moved along adding new features, some of them exciting (pagination and external data handling), I was thinking that I could make the theme a little bit more user friendly and easier to use. So, this last week I focused again on the theme and added some new features, working for a couple hours every evening: there&amp;rsquo;s syntax highlighting baked in (using &lt;a href=&#34;http://craig.is/making/rainbows&#34;&gt;rainbow.js&lt;/a&gt;), a Google analytics partial, Open Graph tags, Twitter card support, a share widget for posts (using &lt;a href=&#34;http://sonnyt.com/prettySocial/&#34;&gt;jquery.prettySocial&lt;/a&gt;). I&amp;rsquo;ve also tried to make an asset pipeline of some sort using the amazing &lt;a href=&#34;http://gulpjs.com/&#34;&gt;gulp.js&lt;/a&gt;.&lt;/p&gt;
 
