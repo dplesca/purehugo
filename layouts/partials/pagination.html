@@ -1,3 +1,4 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
 <div class="pagination">
   <nav role="pagination" class="post-list-pagination">
       {{ if .Paginator.HasPrev }}
@@ -13,3 +14,4 @@
     {{ end }}
   </nav>
 </div>
+{{ end }}
