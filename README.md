@@ -35,3 +35,6 @@ For responsive images you could use the built-in responsive image shortcode:
 ```
 {{%/* img-responsive http://example.com/image.jpg */%}}
 ```
+
+### Screenshot
+![Screenshot](http://i.imgur.com/Dsj41Rz.png)
