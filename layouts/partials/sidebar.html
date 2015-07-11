@@ -7,12 +7,12 @@
 
         <nav class="nav">
             <ul class="nav-list">
-                {{ with .Site.Params.twitter }}
+                {{ with .Site.Params.twitterName }}
                 <li class="nav-item">
                     <a class="pure-button" href="https://twitter.com/{{ . }}"><i class="fa fa-twitter"></i> Twitter</a>
                 </li>
                 {{ end }}
-                {{ with .Site.Params.github }}
+                {{ with .Site.Params.githubName }}
                 <li class="nav-item">
                     <a class="pure-button" href="https://github.com/{{ . }} "><i class="fa fa-github-alt"></i> github</a>
                 </li>
