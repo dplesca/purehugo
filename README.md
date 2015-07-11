@@ -17,8 +17,8 @@ Paginate = 10
 disqusShortname = "xxxx"
 
 [params]
-  twitter = "dragos_plesca"
-  github = "dplesca"
+  twitterName = "dragos_plesca"
+  githubName = "dplesca"
   description = "Demo site for a hugo theme"
   google_analytics = "UA-xxxxxx-xx"
 ```
