@@ -42,7 +42,7 @@ If you would like to hide the share options in the single post view, you can add
 
 ```toml
 [params]
-  <<other options>>
+  # ... other options ...
   hideShareOptions = true
 ```
 
