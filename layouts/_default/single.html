@@ -24,7 +24,7 @@
                             {{ end }}
                         </p>
                     </header>
-
+                    {{ if not .Site.Params.hideShareOptions }}
                     <div class="post-share">
                         <div class="post-share-links">
                             <h4 style="">Share</h4>
@@ -36,6 +36,7 @@
                             
                         </div>
                     </div>
+                    {{ end }}
                     <div class="post-description">
                         {{ .Content }}
                     </div>
