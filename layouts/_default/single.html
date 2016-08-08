@@ -28,8 +28,12 @@
                     <div class="post-share">
                         <div class="post-share-links">
                             <h4 style="">Share</h4>
+                            {{ if isset .Site.Params "facebook" }}
                             <a href="#" data-type="facebook" data-url="{{ .Permalink }}" data-title="{{ .Title }}" data-description="{{ .Description }}" data-media="" class="prettySocial fa fa-facebook"></a>
+                            {{ end }}
+                            {{ if isset .Site.Params "googleplus" }}
                             <a href="#" data-type="googleplus" data-url="{{ .Permalink }}" data-description="{{ .Description }}" class="prettySocial fa fa-google-plus"></a>
+                            {{ end }}
                             {{ if isset .Site.Params "twitter" }}
                             <a href="#" data-type="twitter" data-url="{{ .Permalink }}" data-description="{{ .Description }}" data-via="{{ .Site.Params.twitter }}" class="prettySocial fa fa-twitter"></a>
                             {{ end }}
