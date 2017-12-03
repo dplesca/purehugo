@@ -17,6 +17,11 @@
                     <a class="pure-button" href="https://github.com/{{ . }} "><i class="fa fa-github-alt"></i> github</a>
                 </li>
                 {{ end }}
+                {{ with .Site.Params.stackOverflowId }}
+                <li class="nav-item">
+                    <a class="pure-button" href="https://stackoverflow.com/u/{{ . }} "><i class="fa fa-stack-overflow"></i> Stack Overflow</a>
+                </li>
+                {{ end }}
                 <li class="nav-item">
                     <a class="pure-button" href="{{ .Site.BaseURL }}/index.xml"><i class="fa fa-rss"></i> rss</a>
                 </li>
