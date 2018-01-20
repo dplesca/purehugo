@@ -27,11 +27,12 @@ disqusShortname = "xxxx"
   twitterName = "dragos_plesca"
   githubName = "dplesca"
   stackOverflowId = "#######"
+  linkedinName = "dragos-plesca-52797444"
   description = "Demo site for a hugo theme"
   google_analytics = "UA-xxxxxx-xx"
 ```
 
-Notice the configuration necessary for disqus comments (just setting the disqusShortname); the twitter, github, and stack overflow handlers (for the site sidebar); the site description and enabling Google Analytics reporting.
+Notice the configuration necessary for disqus comments (just setting the disqusShortname); the twitter, github, stack overflow and linkedin handlers (for the site sidebar); the site description and enabling Google Analytics reporting.
 
 ### Syntax Highlighting
 
