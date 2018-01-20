@@ -55,5 +55,16 @@ If you would like to hide the share options in the single post view, you can add
   hideShareOptions = true
 ```
 
+### Hide Sidebar icons text Options
+
+
+If you would like to hide the text next to the icons on the sidebar, you can add this option in the `params` section of your config file.
+
+```toml
+[params]
+  # ... other options ...
+  hideSidebarIconText = true
+```
+
 ### Screenshot
 ![Screenshot](http://i.imgur.com/Dsj41Rz.png)

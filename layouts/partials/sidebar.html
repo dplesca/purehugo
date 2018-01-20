@@ -7,28 +7,38 @@
 
         <nav class="nav">
             <ul class="nav-list">
-                {{ with .Site.Params.twitterName }}
+                {{ if .Site.Params.twitterName }}
                 <li class="nav-item">
-                    <a class="pure-button" href="https://twitter.com/{{ . }}"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a class="pure-button" href="https://twitter.com/{{ .Site.Params.twitterName }}">
+                        <i class="fa fa-twitter"></i>{{ if not .Site.Params.hideSidebarIconText }} Twitter{{ end }}
+                    </a>
                 </li>
                 {{ end }}
-                {{ with .Site.Params.githubName }}
+                {{ if .Site.Params.githubName }}
                 <li class="nav-item">
-                    <a class="pure-button" href="https://github.com/{{ . }} "><i class="fa fa-github-alt"></i> github</a>
+                    <a class="pure-button" href="https://github.com/{{ .Site.Params.githubName }}">
+                        <i class="fa fa-github-alt"></i>{{ if not .Site.Params.hideSidebarIconText }} Github{{ end }}
+                    </a>
                 </li>
                 {{ end }}
-                {{ with .Site.Params.stackOverflowId }}
+                {{ if .Site.Params.stackOverflowId }}
                 <li class="nav-item">
-                    <a class="pure-button" href="https://stackoverflow.com/u/{{ . }} "><i class="fa fa-stack-overflow"></i> Stack Overflow</a>
+                    <a class="pure-button" href="https://stackoverflow.com/u/{{ .Site.Params.stackOverflowId }}">
+                        <i class="fa fa-stack-overflow"></i>{{ if not .Site.Params.hideSidebarIconText }}Stack Overflow{{ end }}
+                    </a>
                 </li>
                 {{ end }}
-                {{ with .Site.Params.linkedinName }}
+                {{ if .Site.Params.linkedinName }}
                 <li class="nav-item">
-                    <a class="pure-button" href="https://www.linkedin.com/in/{{ . }} "><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <a class="pure-button" href="https://www.linkedin.com/in/{{ .Site.Params.linkedinName }}">
+                        <i class="fa fa-linkedin"></i>{{ if not .Site.Params.hideSidebarIconText }} LinkedIn{{ end }}
+                    </a>
                 </li>
                 {{ end }}
                 <li class="nav-item">
-                    <a class="pure-button" href="{{ .Site.BaseURL }}/index.xml"><i class="fa fa-rss"></i> rss</a>
+                    <a class="pure-button" href="{{ .Site.BaseURL }}/index.xml">
+                        <i class="fa fa-rss"></i>{{ if not .Site.Params.hideSidebarIconText }} rss{{ end }}
+                    </a>
                 </li>
             </ul>
         </nav>
