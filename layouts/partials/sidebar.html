@@ -36,7 +36,7 @@
                 </li>
                 {{ end }}
                 <li class="nav-item">
-                    <a class="pure-button" href="{{ .Site.BaseURL }}/index.xml">
+                    <a class="pure-button" href='{{ "index.xml" | absURL }}'>
                         <i class="fa fa-rss"></i>{{ if not .Site.Params.hideSidebarIconText }} rss{{ end }}
                     </a>
                 </li>

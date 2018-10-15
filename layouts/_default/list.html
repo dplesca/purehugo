@@ -20,8 +20,9 @@
                             {{ end }}
                             {{ if isset .Params "categories" }}
                                 under 
-                                {{ $baseUrl := .Site.BaseURL }}
-                                {{ range .Params.categories }}<a class="post-category post-category-{{ . }}" href="{{ $baseUrl }}/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
+                                {{ range .Params.categories }}
+                                    <a class="post-category post-category-{{ . }}" href='{{ ( printf "categories/%s" . ) | absURL }}'>{{ . }}</a>
+                                {{ end }}
                             {{ end }}
                         </p>
                     </header>
