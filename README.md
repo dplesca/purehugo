@@ -38,7 +38,7 @@ Notice the configuration necessary for disqus comments (just setting the disqusS
 
 Syntax highlighting is enabled by default and it uses the nice [rainbow js](http://craig.is/making/rainbows) library. All you need to do is to let rainbow.js the language of the highlighted code, using something like ````go` when writing the code in markdown.
 
-### Reponsive Images
+### Responsive Images
 
 For responsive images you could use the built-in responsive image shortcode (without the `/**/` characters):  
 ```
