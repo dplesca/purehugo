@@ -79,4 +79,4 @@ If you would like to hide the text next to the icons on the sidebar, you can add
 ```
 
 ### Screenshot
-![Screenshot](http://i.imgur.com/Dsj41Rz.png)
+![Screenshot](https://i.imgur.com/Dsj41Rz.png)
