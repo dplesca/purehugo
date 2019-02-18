@@ -34,22 +34,6 @@ disqusShortname = "xxxx"
 
 Notice the configuration necessary for disqus comments (just setting the disqusShortname); the twitter, github, stack overflow and linkedin handlers (for the site sidebar); the site description and enabling Google Analytics reporting.
 
-### Syntax Highlighting
-
-Syntax highlighting is enabled by default and uses the [Rainbow](http://craig.is/making/rainbows) highlighting library. All you need to do is add a language identifier to a code block.
-
-For example, to apply Go syntax highlighting in Markdown:
-
-    ```go
-        package main
-
-        import "fmt"
-
-        func main() {
-          fmt.Println("Hello, 世界")
-        }
-    ```
-
 ### Responsive Images
 
 For responsive images you could use the built-in responsive image shortcode (without the `/**/` characters):  
