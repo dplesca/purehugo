@@ -7,8 +7,8 @@
         <div>
             <!-- A wrapper for all the blog posts -->
             <div class="posts">
-                {{ range .Paginator.Pages }}
-                <h1 class="content-subhead">{{ .Date.Format "02 Jan 2006, 15:04" }}</h1>
+              {{ range .Paginator.Pages }}
+                <h1 class="content-subhead">{{ .Date | time.Format ":date_full" }}</h1>
                 <section class="post">
                     <header class="post-header">
 
@@ -29,7 +29,7 @@
                         {{ .Content }}
                     </div>
                 </section>
-                {{ end }}
+              {{ end }}
             </div>
             {{ partial "pagination.html" . }}
             {{ partial "footer.html" . }}
