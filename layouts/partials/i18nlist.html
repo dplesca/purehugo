@@ -1,0 +1,11 @@
+{{ if .IsTranslated }}
+<nav class="i18n">
+  <ul>
+    {{ range .Translations }}
+    <li class="nav-item">
+      <a class="pure-button" href="{{ .RelPermalink }}">{{ .Lang }}</a>
+    </li>
+    {{ end}}
+  </ul>
+</nav>
+{{ end }}
